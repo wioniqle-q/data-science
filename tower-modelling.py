@@ -32,7 +32,6 @@ class TowerModelling:
         print("Labels: ", data[0]['word']) 
         print("Image: ", data[0]['drawing']) 
     
-
 if __name__ == '__main__': 
     path = './Tower.ndjson' 
     tower = TowerModelling(path)
