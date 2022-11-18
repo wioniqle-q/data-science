@@ -38,7 +38,3 @@ if __name__ == '__main__':
     tower = TowerModelling(path)
     data = tower.read() 
     tower.show_information(data) 
-
-
-    
-        
